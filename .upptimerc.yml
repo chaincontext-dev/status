@@ -25,19 +25,30 @@ status-website:
   cname: status.chaincontext.dev
   # logoUrl: https://chaincontext.dev/logo.svg
   name: ChainContext Status
-  theme: chaincontext
+  theme: dark
   navbar:
     - title: Homepage
       href: https://chaincontext.dev
     - title: Dashboard
       href: https://app.chaincontext.dev
+  # Inline CSS — survives workflow template updates (unlike files in themes/)
+  css: ":root { --body-background-color: #09090b; --body-text-color: #fafafa; --card-background-color: #18181b; --nav-background-color: #18181b; --nav-border-bottom-color: #27272a; --nav-current-border-bottom-color: #818cf8; --card-border-color: #27272a; --up-border-left-color: #34d399; --down-border-left-color: #f87171; --down-background-color: rgba(239,68,68,0.1); --degraded-border-left-color: #fbbf24; --tag-color: #fafafa; --tag-up-background-color: #059669; --tag-down-background-color: #dc2626; --tag-degraded-background-color: #d97706; --change-background-color: #fbbf24; --error-button-border-color: #4f46e5; --error-button-background-color: #6366f1; --error-button-color: #ffffff; --submit-button-border-color: #4f46e5; --submit-button-background-color: #6366f1; --submit-button-color: #ffffff; --graph-opacity: 1; --graph-filter: none; }"
 
-# Check every 5 minutes
-# workflowSchedule:
-#   graphs: "0 0 * * *"
-#   responseTime: "0 23 * * *"
-#   staticSite: "0 1 * * *"
-#   summary: "0 0 * * *"
-#   updateTemplate: "0 0 * * *"
-#   updates: "*/5 * * * *"
-#   uptime: "*/5 * * * *"
+# Notifications (optional — pick one or more)
+# notifications:
+  # Slack webhook
+  # - type: slack
+  #   channel: C0XXXXXX
+  #   url: $SLACK_WEBHOOK_URL
+
+  # Email via SMTP
+  # - type: smtp
+  #   host: smtp.example.com
+  #   port: 587
+  #   username: $SMTP_USERNAME
+  #   password: $SMTP_PASSWORD
+  #   to: alerts@chaincontext.dev
+
+  # Discord webhook
+  # - type: discord
+  #   url: $DISCORD_WEBHOOK_URL
