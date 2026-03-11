@@ -13,17 +13,17 @@ sites:
     expectedStatusCodes:
       - 200
 
-  - name: MCP Runtime
-    url: https://mcp.chaincontext.dev/health
-    expectedStatusCodes:
-      - 200
+  # - name: MCP Runtime
+  #   url: https://mcp.chaincontext.dev/health
+  #   expectedStatusCodes:
+  #     - 200
 
-  - name: Documentation
-    url: https://help.chaincontext.dev
+  # - name: Documentation
+  #   url: https://help.chaincontext.dev
 
 status-website:
   cname: status.chaincontext.dev
-  logoUrl: https://chaincontext.dev/logo.svg
+  # logoUrl: https://chaincontext.dev/logo.svg
   name: ChainContext Status
   theme: dark
   navbar:
