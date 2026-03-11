@@ -25,7 +25,7 @@ status-website:
   cname: status.chaincontext.dev
   # logoUrl: https://chaincontext.dev/logo.svg
   name: ChainContext Status
-  theme: dark
+  theme: chaincontext
   navbar:
     - title: Homepage
       href: https://chaincontext.dev
