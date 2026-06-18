@@ -4,19 +4,19 @@
     "url": "https://chaincontext.dev",
     "icon": "https://icons.duckduckgo.com/ip3/chaincontext.dev.ico",
     "slug": "marketing-site",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.76%",
-    "uptimeWeek": "99.97%",
-    "uptimeMonth": "99.99%",
-    "uptimeYear": "100.00%",
-    "time": 521,
-    "timeDay": 203,
-    "timeWeek": 180,
-    "timeMonth": 151,
-    "timeYear": 521,
+    "status": "up",
+    "uptime": "99.88%",
+    "uptimeDay": "87.65%",
+    "uptimeWeek": "98.24%",
+    "uptimeMonth": "99.59%",
+    "uptimeYear": "99.88%",
+    "time": 517,
+    "timeDay": 157,
+    "timeWeek": 163,
+    "timeMonth": 150,
+    "timeYear": 517,
     "dailyMinutesDown": {
-      "2026-06-18": 3
+      "2026-06-18": 178
     }
   },
   {
