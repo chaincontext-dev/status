@@ -5,16 +5,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/chaincontext.dev.ico",
     "slug": "marketing-site",
     "status": "up",
-    "uptime": "99.90%",
+    "uptime": "99.91%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "99.90%",
-    "time": 425,
-    "timeDay": 161,
-    "timeWeek": 131,
-    "timeMonth": 130,
-    "timeYear": 425,
+    "uptimeYear": "99.91%",
+    "time": 423,
+    "timeDay": 135,
+    "timeWeek": 120,
+    "timeMonth": 131,
+    "timeYear": 423,
     "dailyMinutesDown": {
       "2026-06-18": 178
     }
@@ -30,11 +30,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 1379,
-    "timeDay": 1671,
-    "timeWeek": 1803,
-    "timeMonth": 1760,
-    "timeYear": 1379,
+    "time": 1384,
+    "timeDay": 1942,
+    "timeWeek": 1776,
+    "timeMonth": 1767,
+    "timeYear": 1384,
     "dailyMinutesDown": {}
   },
   {
@@ -49,9 +49,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 511,
-    "timeDay": 518,
-    "timeWeek": 578,
-    "timeMonth": 564,
+    "timeDay": 485,
+    "timeWeek": 562,
+    "timeMonth": 561,
     "timeYear": 511,
     "dailyMinutesDown": {}
   }
